@@ -97,23 +97,30 @@ h1{
 
 }
 
+
 p{
     color: black;
     padding: 40px;
     margin-right: 400px;
     margin-left: 60px;
     margin-top: 60px;
-    border: 10px solid rgb(47, 128, 67);
+    border: 20px solid rgb(208, 208, 10);
 }
+  
 
 .parrafoDos{
     border-radius: 30px;
 }
 
 img {
-    margin-top: 80px; 
-    margin-left: 200px;
-    border:20px inset green ;
+   
+    border:20px inset rgb(218, 194, 15) ;
+}
+.fotoproducto2{
+    margin-top: 150px; 
+    margin-left: 400px;
+    border:20px inset rgb(218, 194, 15) ;
+
 }
  
 footer{
@@ -149,7 +156,7 @@ h2{
 .fotoProducto:hover{
     display: grid;
     justify-content: first baseline;
-    transform: scale(2);
+    transform: scale(1.5);
 
 
 }
@@ -189,4 +196,11 @@ h2{
      
      width: 700px;
  }
- 
+ /*no puedo hacer que me quede la imagen centrada :(  */
+ .carousel slide{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+  
+
+ }
