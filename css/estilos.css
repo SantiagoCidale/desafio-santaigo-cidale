@@ -196,7 +196,8 @@ h2{
      
      width: 700px;
  }
- /*no puedo hacer que me quede la imagen centrada :(  */
+
+ 
  .carousel slide{
      display: flex;
      flex-direction: column;
