@@ -1,9 +1,5 @@
-header{
-    background-color: aqua;
-}
-#head{
-    background-color: aqua;
-}
+@import "generales" ;
+
 
 
 /*selector{
@@ -14,11 +10,7 @@ header{
 
 
 
-*{
-    padding: 0;
-    margin: 0;
 
-}
 
 /*header{
     background-color: darkcyan;
@@ -69,13 +61,7 @@ h2{
 body{
     background-color: rgb(17, 121, 232);
 }
-header{
-    background-color: rgb(242, 185, 16);
-    padding: 45px 60px 40px 50px;
-   
 
-
-}
 
 
 ul {
