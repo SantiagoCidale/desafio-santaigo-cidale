@@ -60,6 +60,7 @@ h2{
 }
 
 */
+
 body{
     background-color: rgb(17, 121, 232);
 }
@@ -91,7 +92,7 @@ h1{
     margin: 80px 40px 80px;
     border: 20px solid rgb(255, 255, 255); 
    /* position: sticky ;*/
-    top: 30px;
+
     
 
 
@@ -141,6 +142,7 @@ h2{
     border: 20px solid rgb(255, 255, 255); 
    /* position: sticky ;*/
     top: 30px;
+   
 }
 
 #grilla{
@@ -204,4 +206,9 @@ h2{
      align-content: center;
   
 
+ } 
+ h1{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Staatliches', cursive;
  }
+ 
