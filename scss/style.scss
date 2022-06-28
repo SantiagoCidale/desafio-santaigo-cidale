@@ -2,160 +2,349 @@
 
 
 
-/*selector{
-    propiedad:valor
-
-}*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @import "operaciones";
 @import "generales" ;
 
 
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
+#header {
+  display: flex;
+  background-color: rgb(242, 185, 16);
+  justify-content: space-around;
+  
+ 
+  
+  
+
+
+}
 
 body{
-    background-color: rgb(17, 121, 232);
+  background-color: rgb(106, 106, 255);
+}
+.menu {
+  padding: 0.5rem;
+  display: flex;
+  font-size: 0.5rem;
+ 
+  
+  
+  
+  
+ 
 }
 
-
-
-ul {
-    list-style: none;
-
-}
-li{
-    display: inline-block;
-    color: rgb(6, 71, 168);
-
-}
-a{
-    text-decoration: none;
-}
-
-h1{
-    color: rgb(13, 12, 12);
-    padding: 40px;
-    margin: 80px 40px 80px;
-    border: 20px solid rgb(255, 255, 255); 
-   /* position: sticky ;*/
-    top: 30px;
-    
-
+#videos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-
-p{
-    color: black;
-    padding: 40px;
-    margin-right: 400px;
-    margin-left: 60px;
-    margin-top: 60px;
-    border: 20px solid rgb(208, 208, 10);
-}
+.navBarItem {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+    justify-items:center ;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: larger;
   
 
-.parrafoDos{
-    border-radius: 30px;
 }
 
-img {
-   
-    border:20px inset rgb(218, 194, 15) ;
-}
-.fotoproducto2{
-    margin-top: 150px; 
-    margin-left: $ancho;
-    border:20px inset rgb(218, 194, 15) ;
+#foto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  
+
+
+}
+
+#imagenWilli{
+  width: 15rem;
+  border-style: double;
+  border-width: 1rem;
+  border-color: darkgreen;
+}
+
+
+#floatingInput {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  width: 100px;
+}
+
+
+
+.parrafoDos {
+  border-radius: 30px;
+}
+
+.fotoproducto2 {
+  margin-top: 150px;
+  margin-left: 400px;
+  border: 20px inset rgb(218, 194, 15);
+}
+
+
+#eventos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  margin: 80px 40px 80px;
+  border: 20px inset rgb(218, 194, 15);
+  /* position: sticky ;*/
+  top: 30px;
+}
+
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header" "nav" "footer" "publicidad";
+}
+
+.fotoProducto:hover {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: first baseline;
+      -ms-flex-pack: first baseline;
+          justify-content: first baseline;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+
+.lista {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+
+.menu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: larger;
+}
+
+#contacto {
+  margin: 0%;
+  width: 700px;
+}
+
+.carousel slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+      
+}
+
+#floatingInput {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 200px;
+}
+
+#floatingTextarea2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: center;
+  height: 500px;
+  width: 400px;
+}
+
+#tituloPrincipal {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+#footerProducto {
+  margin-top: 20px;
+}
+
+.navbar {
+  font-size: large;
+  background-color: rgb(242, 185, 16);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid {
+  background-color: rgb(242, 185, 16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+
+.footerAbsolute{
+
+  background-color: rgb(242, 185, 16);
+  position: absolute;
+  bottom: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.footerNormal{
+  background-color: rgb(242, 185, 16);
+  bottom: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.textoFooter2{
+  padding: 0.5rem;
+  
+  font-size: 1remrem;
+}
+.agradecimientos {
+  font-size: 1rem;
+}
+
+.agradecimientos2 {
+  font-size: 2rem;
+  
+}
+#formulario{
+  background-color: white;
+  margin: 0.3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 30rem;
+  
+}
+
+@media (min-width: 600px){
+  .menu {
+    font-size: 1rem;
+  }
+  #videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .videosHome{
+    width: 30rem;
+    
+    height: 18rem;
+    padding: 1rem;
+  }
+  
+#imagenWilli{
+  width: 35rem;
+}
+}
+p{
+    border: chocolate;
 }
  
-footer{
-    padding: 50;
-    margin-bottom: 1px;
-  
-    background-color:rgb(242, 185, 16);
+.historiaWilly{
+    border-color: rgb(231, 189, 62);
+  border-width: 1rem;
+    border-style: inset;
+    padding-top: 0.5rem;
+    font-size: large;
+    margin-top: 1rem;
+    background-color: rgb(71, 144, 234);
+    
 
 }
-h2{
-    color: black;
+.parrafos{
+    border-color: rgb(231, 189, 62) ;
+    border-width: 1rem;
+      border-style: inset;
+      padding-top: 0.5rem;
+      font-size: x-large;
+      color: rgb(0, 0, 0);
+      background-color: rgb(71, 144, 234);
 }
+.carousel{
+    border-color: rgb(0, 0, 0);
+    border-style: inset;
+    border-width: 1rem;
+    justify-content: 3;
 
-#eventos{
-    display: flex;
+
+}
+.linkLibros{
+   color: rgb(51, 2, 47);
+    font-size: large;
+    text-decoration: none;
+    font-style: italic;
+}
+.redes{
+    text-decoration: none;
+    color: rgb(68, 127, 8);
+}
+.historiaWilly{
+    font-size: large;
+    color: bisque;
+}
+.serviciosdiv{
+    display: grid;
+    grid-gap: 30px;
+    
+}
+.btn-group{
+    background-color: brown;
+    color: brown;
+}
+.contactogrid{
+    display:flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
-    padding: 30px;
-    margin: 80px 40px 80px;
-    border: 20px solid rgb(255, 255, 255); 
-   /* position: sticky ;*/
-    top: 30px;
+    margin-bottom: 2rem;
+   
 }
-
-#grilla{
-    display: grid;
-    grid-template-areas: "header header"
-    "nav"
-    "footer" "publicidad"
-    ;
-}
-
-
-
-.fotoProducto:hover{
-    display: grid;
-    justify-content: first baseline;
-    transform: scale(1.5);
-
-
-}
-
-.videosHome{
+.card1{
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+
     
-}
- .lista{  display: grid;
-   grid-template-columns: 200px 200px 200px 200px ;
-
- }
-
- .menu{
-     display: flex;
-     justify-content: space-evenly;
-     
-     font-size: large;
- }
- .menu2{
-     display: flex;
-     justify-content: space-evenly;
-     font-size: larger;
- }
-
- #foto{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     
-
- }
- #contacto{
-     margin: 0%;
-     
-     width: 700px;
- }
-
- 
- .carousel slide{
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-  
-
- }
-
- h1{
-    
- }
+}    
